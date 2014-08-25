@@ -1,0 +1,33 @@
+{
+  "name": "example-grunt-project",
+  "description": "Webteam ongoing refactor to discover, discuss, and document our own best practice.",
+  "version": "1.0.0",
+  "style": "./wp-content/themes/nitro/dist/css/bootstrap.css",
+  "less": "./bootstrap-dev/less/bootstrap.less",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NetatWork/example-grunt-project.git"
+  },
+  "devDependencies": {
+    "btoa": "~1.1.1",
+    "canonical-json": "~0.0.3",
+    "grunt": "~0.4.5",
+    "grunt-banner": "~0.2.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-csslint": "~0.2.0",
+    "grunt-contrib-less": "~0.9.0",
+    "grunt-contrib-qunit": "^0.5.2",
+    "grunt-contrib-requirejs": "~0.4.4",
+    "grunt-contrib-uglify": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-exec": "0.4.3",
+    "grunt-sed": "~0.1.1",
+    "load-grunt-tasks": "~0.3.0",
+    "markdown": "~0.5.0"
+  },
+  "buildConfig": {
+    "uglify": true
+  }
+}

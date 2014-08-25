@@ -1,0 +1,1 @@
+require(["jquery","bootstrap"],function(e,t){console.log("header");e(".nav").on("click","li",function(t){t.preventDefault();!e(t.currentTarget).find(".sub-menu").length||e(t.currentTarget).find(".sub-menu").css("display")=="block"?window.location.href=t.target.attributes[0].nodeValue:e(t.currentTarget).find(".sub-menu").slideToggle()})});
